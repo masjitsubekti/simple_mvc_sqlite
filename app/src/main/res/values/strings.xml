@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple Book CRUD</string>
+    <string name="createText">Create Data</string>
+    <string name="readText">Read Data</string>
+    <string name="updateText">Edit Data</string>
+    <string name="deleteText">Delete Data</string>
+    <string name="book_name">Book Name</string>
+    <string name="book_author">Book Author</string>
+</resources>

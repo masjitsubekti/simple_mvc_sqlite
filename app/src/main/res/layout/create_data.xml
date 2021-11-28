@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.CreateData">
+
+    <TextView
+        android:id="@+id/title_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/createText"
+        android:textSize="42sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/edtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_app"
+        android:hint="@string/book_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/edtBookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtBookName"
+        android:hint="@string/book_author"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtBookAuthor"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/createText"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+</RelativeLayout>
